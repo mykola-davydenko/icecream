@@ -1,0 +1,335 @@
+:root {
+  --text-color: #000;
+  --hover-color: #ff993a;
+  --accent-color: #ff463a;
+  --hero-bacground: #ffe4cc;
+  --popular-cards: #efefef;
+  --contact-text-hover: #fff;
+  --footer-bacground: #181818;
+}
+
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Oswald", sans-serif; */
+/* font-family: "Nunito", sans-serif; */
+/* font-family: "Raleway", sans-serif; */
+
+.container {
+  width: 1640px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-box{
+display: flex;
+align-items: center;
+gap: 188px;
+}
+
+.header-logo{
+display: flex;
+gap: 37px;
+align-items: center;
+}
+
+
+
+.logo-text {
+  color: #ff993a;
+  font-family: "Oswald";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-list{
+display: flex;
+gap: 65px;
+}
+
+
+
+.header-link {
+  color: #000;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #ff993a;
+}
+
+/* hero */
+
+.hero {
+  background-color: #ffe4cc;
+}
+
+.hero-wrap{
+  display: flex;
+  gap: 397px;
+  align-items: center;
+}
+
+.hero-text {
+  color: #ff993a;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  color: #ff463a;
+  font-family: "Nunito";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  width: 273px;
+  margin-bottom: 45px;
+}
+
+.hero-deck {
+  color: #000;
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  width: 527px;
+  margin-bottom: 45px;
+}
+
+.hero-btn {
+  cursor: pointer;
+  color: #fff;
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  background: #ff463a;
+  padding: 15px 30px;
+  border: none;
+}
+
+/*секція популярні морозива*/
+
+.popular {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.popular-list{
+  display: flex;
+  gap: 20px;
+}
+
+.popular-item {
+  border-radius: 10px;
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 140px;
+  padding-left: 70px;
+  display: flex;
+  gap: 117px;
+  align-items: center;
+}
+
+.popular-title {
+  margin-bottom: 10px;
+  color: #ff463a;
+  font-family: "Nunito";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.popular-text {
+  margin-bottom: 45px;
+  color: #000;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 45px;
+}
+
+
+.popular-btn {
+  cursor: pointer;
+  padding: 15px 30px;
+  color: #000;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+
+/* секція топ */
+.top {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background-color: #FFE4CC;
+}
+.top-title {
+  margin-bottom: 40px;
+  color: #ff463a;
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.top-text {
+  width: 790px;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 68px;
+}
+
+.top-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* contact */
+.contact {
+  padding-top: 100px ;
+  padding-bottom: 100px;
+}
+
+.contact-list{
+  display: flex;
+  gap: 20px;
+}
+
+.contact-item {
+  text-align: center;
+  border-radius: 10px;
+box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
+padding: 30px 151px 53px 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.contact-item:hover {
+  background: #FF463A;
+  .contact-link, .contact-address, .contact-title {
+    color: #FFF;
+  }
+}
+
+.contact-item:nth-child(2) {
+  padding:30px 189px 53px 189px;
+}
+
+.contact-item:nth-child(3) {
+  padding:30px 34px 53px 35px;
+}
+
+.contact-img {
+width: 100px;
+height: 100px;
+
+}
+
+.contact-title {
+color: #FF463A;
+text-align: center;
+font-family: "Nunito";
+font-size: 32px;
+font-weight: 700;
+line-height: normal;
+margin-top: 40px;
+margin-bottom: 25px;
+}
+
+
+
+.contact-link {
+  color: #000;
+text-align: center;
+font-family: "Raleway";
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+display: block;
+}
+
+.contic{
+  width: 458px;
+}
+
+
+
+.contact-address {
+  color: #000;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #181818;
+}
+.footer > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.footer-text {
+  color: #FF993A;
+font-family: "Oswald";
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-img {
+  width: 80px;
+height: 80px;
+}
+
+.footer-deck {
+color: #FFF;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+}
